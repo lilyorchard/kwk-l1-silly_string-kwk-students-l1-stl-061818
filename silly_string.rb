@@ -27,25 +27,25 @@ letter_count = big_word.lenth # Put a . after big_word and use a String method.
 
 puts "There are #{letter_count} in #{big_word}"
 
-# Challenge 5: Add "wow" and "mom" to big_word
+# # Challenge 5: Add "wow" and "mom" to big_word
 
-bigger_word = big_word # Use String concatenation to add "wow" and "mom" to big_word
+# bigger_word = big_word # Use String concatenation to add "wow" and "mom" to big_word
 
-new_letter_count = bigger_word.length
+# new_letter_count = bigger_word.length
 
-puts "There are now #{new_letter_count} in #{bigger_word}"
+# puts "There are now #{new_letter_count} in #{bigger_word}"
 
-# Challenge 6: Capitalize this sentence properly
+# # Challenge 6: Capitalize this sentence properly
 
-proper_sentence = "i really like programming." # Put a . after the string to capitalize it properly.
+# proper_sentence = "i really like programming." # Put a . after the string to capitalize it properly.
 
-puts proper_sentence
+# puts proper_sentence
 
-# Challenge 7: String Switcheroo
-sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
+# # Challenge 7: String Switcheroo
+# sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
 
-# Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
+# # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = sentence # Add your gsub chain here
+# sentence = sentence # Add your gsub chain here
 
-puts sentence
+# puts sentence
