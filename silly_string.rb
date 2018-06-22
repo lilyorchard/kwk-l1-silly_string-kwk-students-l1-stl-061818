@@ -3,7 +3,7 @@
 
 your_favorite_word = "favorite"
 
-puts "My favorite word is favorite".upcase
+puts "My favorite word is favorite".capitalize
 
 # Challenge 2: Capitalize every letter in your_favorite_word using a built in Ruby method
 
