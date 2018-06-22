@@ -23,7 +23,7 @@ puts "im not shouting".swapcase
 
 big_word = "supercalifragilisticexpialidocious"
 
-letter_count = big_word # Put a . after big_word and use a String method.
+letter_count = big_word.lenth # Put a . after big_word and use a String method.
 
 puts "There are #{letter_count} in #{big_word}"
 
@@ -32,7 +32,7 @@ puts "There are #{letter_count} in #{big_word}"
 bigger_word = big_word # Use String concatenation to add "wow" and "mom" to big_word
 
 new_letter_count = bigger_word.length
-puts "supercalifragilisticexpialidocious".length
+
 puts "There are now #{new_letter_count} in #{bigger_word}"
 
 # Challenge 6: Capitalize this sentence properly
